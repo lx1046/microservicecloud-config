@@ -27,4 +27,4 @@ eureka:
     service-url:
       defaultZone: http://eureka-test.com:7001/eureka/
 springcloud:
-  str: hello-test01
+  str: hello-test02
