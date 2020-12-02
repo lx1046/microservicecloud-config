@@ -13,7 +13,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
-      
+springcloud:
+  str: hello-dev
 ---
 server:
   port: 8202
@@ -25,3 +26,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-test.com:7001/eureka/
+springcloud:
+  str: hello-test
